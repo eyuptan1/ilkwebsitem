@@ -1,0 +1,298 @@
+body{
+    background-color: grey;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.logo{
+    height: 60px;
+    margin-right: 15px;
+}
+.box1{
+    background-color: black;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+}
+.box1 ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+
+}
+.box1 li{
+    margin: 0 15px;
+    list-style: none;
+}
+.box1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.box1 a:hover{
+    background-color: white;
+    color: black;
+}
+.uye{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+.uye:hover{
+    background-color: rgb(139, 16, 0);
+}
+.box1 button a {
+    font-family: inherit; 
+    display: inline-block; 
+    text-align: center; 
+    padding: 8px 12px;
+    font-size: 16px;
+}
+.box1 button a:hover{
+    background-color: rgb(139, 16, 0);
+    color: white;
+}
+.iletisim{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 400px;
+    height: 70px;
+    bottom: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%);
+
+}
+.iletisim a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.iletisim img{
+    width: 50px;
+    height: 50px;
+}
+.iletisim ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.iletisim li{
+    margin: 0 15px;
+    list-style: none;
+}
+.anasayfa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: -10px;
+    position: relative;
+}
+.anasayfa img{
+    width: 100%;
+    height: auto;
+}
+.fikstur{
+    background-color: rgb(32, 27, 27);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 0;
+    border-radius: 8px;
+    position: relative;
+    height: 1600px;
+    justify-content: flex-start;
+}
+.stadyum{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+.stadyum h1{
+    z-index: 1;
+    position: relative;
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.stadyum img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.skortablosu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    padding: 20px 50px;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 160px;
+    height: 120px;
+}
+.evsahibi,
+.deplasman{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.evsahibi img{
+    width:80px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 30px;
+
+}
+.deplasman img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: -120px;
+}
+.evsahibi p{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 400px;
+}
+.deplasman p{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 450px;
+}
+.vs p{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-left: -70px;
+}
+.a{
+    z-index: 1;
+    position: relative;
+    color: black;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+.maç{
+    text-align: center;
+    background-color: rgb(224, 226, 227);
+    width: 350px;
+    border: 1px solid black;
+    height: 200px;
+    margin: 0;
+    margin-left: 30px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.evsahibi2,
+.deplasman2,
+.vs2{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.evsahibi2 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.deplasman2 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.b{
+    z-index: 1;
+    position: relative;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.söz{
+    text-align: center;
+    margin: 10px 0;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    
+    color: white;
+    width: 60%;
+}
+.kadro{
+    background-color: rgb(32, 27, 27);
+    display: flex;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: relative;
+    height: auto;
+    flex-wrap: wrap;
+    color: black;
+}
+.kart{
+    text-align: center;
+    background: linear-gradient(135deg, #ffcc00, #d40000);
+    width: 250px;
+    border: 1px solid black;
+    height: 480px;
+    margin: 15px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 8px;  
+}
+.kadro h1{
+    font-size: 24px;
+}
+.kart img{
+    width: 120px;
+    height: 120px;
+}
